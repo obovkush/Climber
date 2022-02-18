@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Climber Game</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="dist/dialog-polyfill.css">
+  <script src="js/script.js"></script>
+  <script src="dist/dialog-polyfill.js"></script>
+</head>
+<body>
+  <main class="container">
+    <div id="info">
+      <h2>x - forward</h2>
+      <h2>z - back</h2>
+      <div id="score">
+        <h2>score:&nbsp</h2>
+        <span id="score-count">0</span>
+      </div>
+    </div>
+    <div id="sun"></div>
+    <img class="mountains" src="img/mountains.png" alt="">
+    <div class="point start" style="bottom: 15%; left: 0%;">
+      <div class="man">
+        <img id="climber" src="img/climber.png" alt="">
+      </div>
+    </div>
+    <div class="point" style="bottom: 21%; left: 12%;"></div>
+    <div class="point" style="bottom: 43%; left: 17.5%;"></div>
+    <div class="point" style="bottom: 67.5%; left: 33%;"></div>
+    <div class="point" style="bottom: 92.5%; left: 42.3%;"></div>
+    <div class="point" style="bottom: 67.5%; left: 52%;"></div>
+    <div class="point" style="bottom: 61.5%; left: 66.5%;"></div>
+    <div class="point" style="bottom: 97.5%; left: 73.5%;"></div>
+    <dialog>
+      <p id="message"></p>
+      <button id="close">Сыграть еще</button>
+    </dialog>
+  </main>
+</body>
+</html>
