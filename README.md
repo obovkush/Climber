@@ -17,4 +17,4 @@ Mini Game Climber
 
 ![Demo XO](/readme-assets/climber.gif)
 
-### Поиграть можно по [ссылке](https://obovkush.github.io/Climber). Для перемещения клавищши X и Z.
+### Поиграть можно по [ссылке](https://obovkush.github.io/Climber). Для перемещения клавиши X и Z.
